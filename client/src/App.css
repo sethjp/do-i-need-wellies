@@ -1,0 +1,149 @@
+body {
+    background-color: #f6fcff;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0px;
+}
+
+p {
+    font-size: 17px;
+}
+
+header {
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    z-index: 100;
+    margin-top: 0px;
+    box-shadow: 0px 0px 10px lightslategray;
+}
+
+.banner {
+    background-color: #8be16c;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 9px 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 16px;
+    margin-left: 16px;
+    border-radius: 6px;
+    transform: rotate(-5deg);
+    text-indent: 0;
+    height: fit-content;
+}
+
+.single-line-text {
+    white-space: nowrap;
+}
+
+.title {
+    text-indent: 5%;
+    margin-right: 20px;
+    margin-left: 10px ;
+    font-size: 1rem;
+}
+
+
+
+.tagline {
+    margin-left: 30px;
+    width: 80%
+}
+
+#root {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.logo {
+    width: 35px; 
+    height: 35px; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.top-line {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.welly-information {
+    margin-left: 25px;
+    width: fit-content;
+    z-index: 30;
+}
+
+@media screen and (max-width: 700px) {
+    .welly-information {
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .banner {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    .map-container{
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+
+    .logo {
+        margin-top: 15px;
+        width: 20px;
+        height: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 300px) {
+    .banner {
+        margin-top: 10px;
+        margin-left: -10px;
+        font-size: 8px;
+        border: 6px;
+    }
+
+    .map-container{
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 17px;
+        margin-top: 15px;
+        margin-left: -10px;
+    }
+
+    .logo {
+        margin-left: 5px;
+        margin-top: 15px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .welly-information {
+        margin-left: 0px;
+        width: 100vw;
+    }
+
+
+}

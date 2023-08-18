@@ -1,0 +1,57 @@
+.welly-assessment {
+    font-weight: bolder;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+.surroundingBox {
+    width: 100%;
+    height: fit-content;
+    border:3px solid whitesmoke;
+    background-color: ivory;
+}
+
+.EnvironmentAgencyAttribution{
+    font-size: small;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+}
+
+.graph-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.graph {
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {    
+    .graph {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .welly-assessment {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    .surroundingBox {
+        border: 0;
+    }
+
+    
+    .rainfall-information {
+        font-size: 14px;
+    }
+
+    .EnvironmentAgencyAttribution {
+        font-size: 14px;
+        width: 100vw;
+    }
+}

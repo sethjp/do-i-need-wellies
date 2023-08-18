@@ -1,0 +1,14 @@
+test-dist
+dist
+*.js
+*.env
+node_modules
+package-lock.json
+config.ts
+
+!jest.config.js
+
+*.log
+*.sh
+
+readings-2023-03-29.*
